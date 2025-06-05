@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.0;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f8ff;
+    color: black;
+    font-size: large;
+}
+h1{
+    text-align: center;
+}
+header {
+    background-color: #f3f7fa;
+    color: rgb(17, 4, 4);
+    padding: 1rem;
+    text-align:right;
+}
+
+nav a {
+    margin: 0 10px;
+    color: rgb(22, 3, 3);
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 65%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #aaa;
+    padding: 8px;
+    text-align: left;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    padding: 8px;
+    width: 60%;
+    margin: 5px 0;
+}
+
+form input[type="submit"] {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+    
+}
