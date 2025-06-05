@@ -39,7 +39,7 @@ if(age >= 18){
 }*/
 
 /*if..else..if statement_____________________*/
-let score =55;
+/*let score =55;
 if(score >= 90){
     console.log("grade:A");
 }else if(score >= 80){
@@ -50,7 +50,7 @@ if(score >= 90){
     console.log("Grade:D");
 }else{
     console.log("Fail");
-}
+}*/
 
 /*for(let i=0; i<10;i++){
     console.log(i)
@@ -73,3 +73,17 @@ switch(number %2){
         console.log(number);
 }
 }*/
+/*function sq(x){
+    let ans = 0;
+    ans = x*x;
+    return ans;
+}
+console.log("This answer is: "+sq(2));*/
+
+
+function parth(x=5){
+    let ans = 0;
+    ans = x*x;
+    return ans;
+}
+console.log("This answer is: "+parth());
